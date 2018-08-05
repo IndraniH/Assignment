@@ -1,0 +1,92 @@
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.App-header h1 {
+   padding-top: 25px;
+   font-size: 40px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  padding:10px;
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-content {
+  width: auto;
+  height: auto;
+  padding: 41px;
+}
+
+.App-content .App-userInput {
+  width: 94%;
+  padding: 10px;
+  
+}
+
+.App-content .App-viewEmpDetails {
+  width: 52%;
+  margin: 10px;
+  padding: 30px;
+  position: relative;
+}
+
+.container {
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+  width:100%;
+  margin: 18px;
+}
+
+.container>div {
+  width: 150px;
+  height: 50px;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 20px;
+}
+
+.getDetailsBtn {
+  margin-top: 33px;
+}
+
+.clearBtn {
+  margin-top: 33px;
+}
+
+
+.basic-details> span {
+  padding: 15px;
+  margin-right: 195px;
+}
+
+.empPic> img {
+  width:417px;
+  height:253px;
+}
+
+
+.loader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  z-index: 9999;
+}
